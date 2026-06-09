@@ -677,6 +677,15 @@ body {
 .cert-title { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 4px; }
 .cert-issuer { font-size: 0.85rem; color: var(--red-light); font-weight: 500; margin-bottom: 8px; }
 .cert-desc { font-size: 0.88rem; color: var(--text-muted); line-height: 1.7; }
+.cert-icon.anthropic-icon {
+  background: rgba(192,57,43,0.15);
+  border-color: rgba(192,57,43,0.45);
+}
+.cert-card:hover .cert-icon.anthropic-icon {
+  background: rgba(192,57,43,0.28);
+  border-color: var(--red);
+}
+
 .cert-badge {
   grid-column: 1 / -1;
   display: inline-flex;
